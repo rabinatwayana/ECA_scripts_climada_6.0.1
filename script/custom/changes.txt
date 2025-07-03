@@ -1,0 +1,12 @@
+In function_ss.py:
+    - Instead of Stamen terrain, OpenStreetMap Mapnik was used as basemap because Stamen is no more freely accessible. 
+      This solves the issue in "generate_plots_risk()" function, which is used in San_Salvador_Risk.ipynb
+    
+In San_Salvador_Risk.ipynb:
+    - Reading hazard using .hdf5 format data instead of .mat
+
+In San_Salvador_Adaptation.ipynb:
+    - Reading hazard using .hdf5 format data instead of .mat
+
+In San_Salvador_Parametric.ipynb:
+    - Reading hazard using .hdf5 format data instead of .mat
